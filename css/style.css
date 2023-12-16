@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0, 179, 255), white);
+    min-height: 100vh;
+}
+main{
+    padding: 15px;
+    display: inline-block;
+    margin-top: 2%;
+    position: relative;
+}
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-83%,80%);
+    height: 18%;
+}
